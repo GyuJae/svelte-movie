@@ -14,9 +14,7 @@
 </script>
 
 <header class='wrapper'>
-  <a href="https://svelte.dev" target="_blank"> 
-    <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-  </a>
+  <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
 
   <ul class='category-list'>
     <li class='category-list-item' class:selected={$categoryStore === 'movie'}>
