@@ -12,6 +12,12 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
     "@tsconfig/svelte": "^3.0.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-svelte": "^2.9.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1",
     "svelte": "^3.49.0",
     "svelte-check": "^2.8.1",
     "svelte-preprocess": "^4.10.7",
