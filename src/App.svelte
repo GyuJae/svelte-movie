@@ -1,17 +1,8 @@
 <script lang="ts">
   import Layout from './components/Layout/Layout.svelte'
-  import { categoryStore } from './stores';
-  
+  import Movies from './components/Movies/Movies.svelte';
 </script>
 
 <Layout>
-  <p>
-    {$categoryStore}
-  </p>
+  <Movies />
 </Layout>
-
-<style>
-  p {
-    color: white;
-  }
-</style>
