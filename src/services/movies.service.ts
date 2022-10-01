@@ -33,6 +33,13 @@ export const getMovies = async (category: TMovieCategory): Promise<IMovie[]> => 
       Accept: 'application/json',
     },
   }).then(data => data.data.results)
+    .then(movies => movies.map(
+      movie => ({
+        ...movie,
+        backdrop_path: movie.backdrop_path ? `https://image.tmdb.org/t/p/w500${movie.backdrop_path}` : undefined,
+        poster_path: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : undefined
+      }))
+    )
 
   return results;
 }

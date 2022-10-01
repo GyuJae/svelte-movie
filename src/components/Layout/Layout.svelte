@@ -12,6 +12,6 @@
   main {
     min-height: 100vh;
     background-color: #141414;
-    padding: 80px 20px;
+    padding-top: 80px;
   }
 </style>

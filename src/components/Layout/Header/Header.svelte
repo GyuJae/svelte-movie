@@ -38,6 +38,7 @@
     width: 100%;
     color: #e5e5e5;
     position: fixed;
+    z-index: 100;
   }
 
   .logo {
